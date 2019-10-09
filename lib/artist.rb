@@ -9,7 +9,7 @@ class Artist
   end
 
   def add_song(song)
-    #self.songs << song
+    self.songs << song
     song.artist = self
     @@song_count +=1
   end
@@ -30,3 +30,4 @@ class Artist
     @@song_count
   end
 end
+adele = Artist.new("Adele")
