@@ -23,3 +23,4 @@ class Song
 end
 
 hello = Song.new("Hello")
+hello.artist = adele
