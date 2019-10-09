@@ -27,7 +27,7 @@ class Artist
   end
 
   def self.song_count
-    @@song_count
+    @@song_count.count
   end
 end
 adele = Artist.new("Adele")
