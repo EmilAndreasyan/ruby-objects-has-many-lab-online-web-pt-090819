@@ -22,3 +22,4 @@ class Song
   end
 end
 
+hello = Song.new("Hello")
